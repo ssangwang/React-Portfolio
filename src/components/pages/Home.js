@@ -1,8 +1,8 @@
 import React from 'react';
 
 const styles = {
-  portBody: {
-    background: '#F4ECD6'
+  heading: {
+    textAlign: 'center',
   }
 };
 
@@ -10,7 +10,7 @@ const styles = {
 export default function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
+      <h1 style={styles.heading}>Home Page</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi

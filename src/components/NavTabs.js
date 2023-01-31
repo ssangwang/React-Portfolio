@@ -5,22 +5,14 @@ import React from 'react';
 const styles = {
   card: {
     padding: '10px',
-    background: '#88B7B5',
-  },
-  heading: {
-    background: '#9a74db',
-    minHeight: 50,
-    lineHeight: 3.5,
-    fontSize: '1.2rem',
-    color: 'white',
-    padding: '0 20px',
-  },
+    display: 'flex',
+    justifyContent: 'flex-end',
+  }
 };
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs" style={styles.card}>
-      <li className="nav-item">Portfolio</li>
       <li className="nav-item">
         <a
           href="#home"
@@ -45,13 +37,13 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#blog"
-          onClick={() => handlePageChange('Blog')}
+          href="#projects"
+          onClick={() => handlePageChange('Projects')}
           //  TODO: Add a comment explaining what this logic is doing
 
-          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
         >
-          Blog
+          Projects
         </a>
       </li>
       <li className="nav-item">
