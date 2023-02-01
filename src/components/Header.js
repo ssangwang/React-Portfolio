@@ -11,7 +11,7 @@ export default function Header(){
 
 return (
     <div>
-        <h1 style={styles.heading}>Portfolio</h1>
+        <h1 style={styles.heading}>React Portfolio</h1>
     </div>
 )
     
