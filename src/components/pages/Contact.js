@@ -7,6 +7,10 @@ import {validateEmail } from '../utils/helpers';
 const styles = {
   heading: {
     textAlign: 'center',
+  },
+  formM :{
+    border: 'solid 1px',
+    backgroundColor: '#B8B8AA'
   }
 };
 
@@ -46,7 +50,7 @@ function Contact() {
   return (
     <div className='webBody'>
       <h1 style={styles.heading}>Contact</h1>
-      <form className="form">
+      <form className="form"> 
         <input
           value={email}
           name="email"
