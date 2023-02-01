@@ -2,7 +2,8 @@ import React from "react";
 
 const styles = {
     heading: {
-      margin: '20px'
+      margin: '20px',
+      textAlign: 'center'
     }
   };
 

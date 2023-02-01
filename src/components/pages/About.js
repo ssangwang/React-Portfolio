@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/body.css'
 
 const styles = {
   heading: {
@@ -8,7 +9,7 @@ const styles = {
 
 export default function About() {
   return (
-    <div>
+    <div className='webBody'>
       <h1 style={styles.heading}>About Page</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.

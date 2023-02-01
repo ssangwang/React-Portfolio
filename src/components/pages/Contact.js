@@ -1,4 +1,6 @@
 import React from 'react';
+import '../styles/body.css'
+
 
 const styles = {
   heading: {
@@ -8,7 +10,7 @@ const styles = {
 
 export default function Contact() {
   return (
-    <div>
+    <div className='webBody'>
       <h1 style={styles.heading}>Contact Page</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis

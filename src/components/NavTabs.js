@@ -6,24 +6,13 @@ const styles = {
   card: {
     padding: '10px',
     display: 'flex',
-    justifyContent: 'flex-end',
+    justifyContent: 'space-around',
   }
 };
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs" style={styles.card}>
-      <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
-          //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
-
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        >
-          Home
-        </a>
-      </li>
       <li className="nav-item">
         <a
           href="#about"
